@@ -3,6 +3,7 @@ class Usuario:
         self.nombre = nombre
         self.apellido = apellido
         self.balance_cuenta = balance_cuenta
+        
     def hacer_deposito(self, cantidad):
         self.balance_cuenta += cantidad
         print(f"Se realizo un deposito de {cantidad}.")
